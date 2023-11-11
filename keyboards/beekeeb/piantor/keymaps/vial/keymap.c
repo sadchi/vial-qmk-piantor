@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    LWIN_T(KC_ESC),     KC_KP_SLASH,       KC_7,              KC_8,       KC_9,       KC_PMNS,               KC_EXLM,           KC_AT,             KC_HASH,    KC_DLR,     KC_PERC,    KC_RWIN,    
    LSFT_T(KC_PEQL),    KC_PAST,           KC_4,              KC_5,       KC_6,       KC_PPLS,               KC_CIRC,           KC_AMPR,           KC_ASTR,    KC_LPRN,    KC_RPRN,    KC_LSFT,    
    LCTL_T(KC_COMM),    KC_0,              KC_1,              KC_2,       KC_3,       KC_DOT,                _______,           _______,           _______,    _______,    _______,    KC_LCTL,    
-   MO(PS),             _______,           _______,                                                          _______,           _______,           MO(PS)
+   TO(PS),             _______,           _______,                                                          _______,           _______,           TO(PS)
     ),    
     [RSE] = LAYOUT_split_3x6_3(
    LWIN_T(KC_ESC),     KC_INS,            KC_HOME,           KC_UP,      KC_PGUP,    KC_BSPC,               KC_F1,             KC_F2,             KC_F3,      KC_F4,      _______,    KC_RWIN,    
@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    KC_LBRC,            KC_RBRC,           KC_W,              KC_E,       _______,    KC_T,                  KC_LBRC,           KC_RBRC,           KC_I,       KC_O,       KC_P,       LWIN_T(KC_ESC),    
    KC_LSFT,            KC_A,              KC_S,              KC_D,       KC_F,       KC_F3,                 _______,           KC_J,              KC_ASTR,    KC_L,       _______,    KC_LSFT,    
    KC_LCTL,            KC_Z,              KC_X,              KC_MINS,    KC_EQL,     KC_B,                  KC_0,              KC_1,              KC_2,       KC_3,       KC_4,       KC_LCTL,    
-   KC_SPC,             KC_LALT,           KC_ENT,                                                           KC_ESC,            KC_LALT,           MO(DEF)
+   KC_SPC,             KC_LALT,           KC_ENT,                                                           KC_ESC,            KC_LALT,           TO(DEF)
     )
 };
 
